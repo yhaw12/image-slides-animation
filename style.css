@@ -24,7 +24,11 @@ body{
     display: flex;
     align-items: center;
     overflow-x: hidden;
-    animation: slideRight 10s linear forwards infinite;
+    transition: .3s;
+}
+
+.slides .images img{
+    animation: slideRight 20s linear forwards infinite;
     animation-iteration-count: infinite;
 }
 
